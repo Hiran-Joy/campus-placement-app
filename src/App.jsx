@@ -3,11 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import AddReg from './components/AddReg'
-import SearchReg from './components/SearchReg'
-import DeleteReg from './components/DeleteReg'
+import SearchRegistration from './components/SearchRegistration'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ViewRegistrations from './components/ViewRegistrations'
+import DeleteRegistration from './components/DeleteRegistration'
+import AddRegistration from './components/AddRegistration'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,9 +18,9 @@ function App() {
 
 <Routes>
 
-<Route path='/' element={<AddReg/>} />
-<Route path='/search' element={<SearchReg/>} />
-<Route path='/delete' element={<DeleteReg/>} />
+<Route path='/' element={<AddRegistration/>} />
+<Route path='/search' element={<SearchRegistration/>} />
+<Route path='/delete' element={<DeleteRegistration/>} />
 <Route path='/view' element={<ViewRegistrations/>} />
 
 </Routes>
