@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import SearchRegistration from './components/SearchRegistration'
 import AddRegistration from './components/AddRegistration'
+import DeleteRegistration from './components/DeleteRegistration'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
       <SearchRegistration />
     <AddRegistration/>
+    <DeleteRegistration/>
     </>
   )
 }
