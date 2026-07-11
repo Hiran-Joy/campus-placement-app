@@ -3,14 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import DeleteRegistration from './components/DeleteRegistration'
+import SearchRegistration from './components/SearchRegistration'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <DeleteRegistration/>
+      <SearchRegistration />
     </>
   )
 }
